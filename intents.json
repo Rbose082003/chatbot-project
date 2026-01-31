@@ -1,0 +1,20 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey"],
+      "responses": ["Hello! How can I help you?"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["opening time", "working hours", "when are you open"],
+      "responses": ["We are open from 9 AM to 9 PM."]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["price", "cost", "charges"],
+      "responses": ["Please visit our website for pricing details."]
+    }
+  ]
+}
